@@ -17,8 +17,9 @@
 | Trainer battles | `official-v1.4.1/Trainer Changes.txt` | v1.4.1 | Primary | Yes | 457 teams imported with mode, location, condition, ability, level, item and moves where documented. |
 | Trainer profile, starter and rival rules | Gift and Trainer documentation | v1.4.1 | Primary | Yes | Snivy/Tepig/Oshawott and Hugh counter-starter mapping configured. Nate/Rosa plus legacy Hilbert/Hilda sprites come from the supplied wiki repository. |
 | Badges | Black 2 progression, names verified against trainer documentation | v1.4.1 | Primary/baseline | Yes | Eight Unova badges configured; generic local badge marker art is used. |
+| Branding artwork and colour palette | https://www.steamgriddb.com/game/5313303 | Selected 2026-08-17 | SteamGridDB contributors Anon11926, Kam and 8resolution | Yes | Local hero, logo and icon assets are credited in `assets/art/STEAMGRIDDB_CREDITS.md`; the cyan/steel/gold interface palette was derived from them. |
 | Maps | None supplied | — | — | No | Map feature disabled; no unlicensed map was inferred. |
-| Sprites and artwork | Pinned PokeAPI sprites; wiki trainer sprites | Pinned commits/current wiki revision | Generic fallback/community | Yes | Local normal and shiny Pokémon sprites are pinned. Placeholder logo/hero/icon remain clearly identifiable pending custom branding. |
+| Sprites and artwork | Pinned PokeAPI sprites; wiki trainer sprites; SteamGridDB branding | Pinned commits/current wiki revision; selected 2026-08-17 | Generic fallback/community/contributor artwork | Yes | Local normal and shiny Pokémon sprites are pinned. SteamGridDB hero, logo and icon are stored locally with direct attribution links. |
 
 ## Conflicts, gaps and confidence
 
@@ -26,4 +27,4 @@
 - Redux mixes Gen V engine behaviour, Gen VIII stats/abilities/TM assumptions, later-generation selected moves, Fairy typing and Gen VI Steel resistances. `sword-shield` is therefore the nearest generic baseline, not a claim of exact mechanics parity.
 - The community wiki fixes some encounter transcription after the v1.4.1 text bundle. It is used for structure and later table corrections; the official text remains authoritative for meaning.
 - Battle natures and EVs are not included because the official documentation states that trainers use random natures and no EVs in this Gen V implementation.
-- Cloud sync, region maps and custom branding are intentionally not enabled without user-supplied endpoints/assets or deployment approval.
+- Cloud sync and region maps remain disabled; user-supplied SteamGridDB branding is enabled and deployed.
