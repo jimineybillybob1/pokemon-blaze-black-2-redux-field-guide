@@ -1024,3 +1024,13 @@ body {
 .brand-logo,.overview-brand-logo { filter:drop-shadow(0 10px 18px rgba(0,0,0,.68)); }
 .sidebar nav button.active { background:linear-gradient(90deg,#1a3f5c,var(--brand-primary)); }
 .primary { color:#061014; background:linear-gradient(135deg,var(--brand-primary),var(--crystal-blue)); }
+
+/* Make source-preserved seasonal encounter tables unmistakable inside broad method categories. */
+.season-aware-method-group > header {
+  background:linear-gradient(90deg,color-mix(in srgb,var(--brand-primary) 16%,var(--panel2)),var(--panel2));
+}
+.seasonal-encounter-group > header {
+  border-left:3px solid var(--brand-accent);
+  background:linear-gradient(90deg,color-mix(in srgb,var(--brand-accent) 12%,var(--panel2)),var(--panel2));
+}
+.seasonal-encounter-group > header span { color:var(--brand-accent); }

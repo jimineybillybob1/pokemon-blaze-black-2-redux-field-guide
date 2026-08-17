@@ -37,6 +37,9 @@ window.GUIDE_OVERRIDES = {
     'Special Event, BB2', 'Special Event, VW2', 'Event Encounter, BB2',
     'Event Encounter, VW2', 'Special Gifts'
   ],
+  encounterCategoryOrder: [
+    'Wild', 'Surf', 'Fish', 'Hidden Grotto', 'Special Encounters'
+  ],
   fishingRodOrder: ['Super Rod'],
   requireFishingRod: true,
   starterChoices: ['Snivy', 'Tepig', 'Oshawott'],
