@@ -3,18 +3,25 @@
   "short_name": "Pokémon Blaze Black 2 Redux",
   "description": "An offline-friendly field guide for Pokémon Blaze Black 2 Redux.",
   "start_url": "./",
+  "scope": "./",
   "display": "standalone",
   "background_color": "#0c1114",
   "theme_color": "#3acdd2",
   "icons": [
     {
-      "src": "assets/art/steamgriddb-icon.png",
+      "src": "assets/art/app-icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "assets/art/app-icon-512.png",
       "sizes": "512x512",
       "type": "image/png",
       "purpose": "any"
     },
     {
-      "src": "assets/art/steamgriddb-icon.png",
+      "src": "assets/art/app-icon-maskable-512.png",
       "sizes": "512x512",
       "type": "image/png",
       "purpose": "maskable"
