@@ -40,6 +40,10 @@ window.GUIDE_OVERRIDES = {
   encounterCategoryOrder: [
     'Wild', 'Surf', 'Fish', 'Hidden Grotto', 'Special Encounters'
   ],
+  // Official wild-area tables distinguish ordinary grass from shaking and doubles grass.
+  encounterMethodLabels: {
+    'Grass': 'Standard Grass'
+  },
   fishingRodOrder: ['Super Rod'],
   requireFishingRod: true,
   starterChoices: ['Snivy', 'Tepig', 'Oshawott'],

@@ -1034,3 +1034,13 @@ body {
   background:linear-gradient(90deg,color-mix(in srgb,var(--brand-accent) 12%,var(--panel2)),var(--panel2));
 }
 .seasonal-encounter-group > header span { color:var(--brand-accent); }
+
+/* Preserve the source's distinct wild encounter tables beneath the broad Wild category. */
+.encounter-wild-methods { display:grid;gap:0; }
+.encounter-wild-method-group { border-top:1px solid color-mix(in srgb,var(--brand-primary) 24%,var(--line));background:color-mix(in srgb,var(--brand-primary) 2%,var(--panel)); }
+.encounter-wild-method-group:first-child { border-top:0; }
+.encounter-wild-method-group > header { display:flex;align-items:center;justify-content:space-between;gap:12px;padding:11px 15px;background:linear-gradient(90deg,color-mix(in srgb,var(--brand-primary) 10%,var(--panel2)),var(--panel2)); }
+.encounter-wild-method-group > header span { display:block;color:var(--brand-primary);font-size:7px;font-weight:900;letter-spacing:.12em; }
+.encounter-wild-method-group > header h4 { margin:2px 0 0;font-size:14px; }
+.encounter-wild-method-group > header b { color:var(--muted);font-size:8px; }
+.encounter-subarea-group > header h5 { margin:2px 0 0;font-size:14px; }
