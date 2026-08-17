@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="title">
+  <title id="title">Blaze Black 2 Redux icon</title>
+  <defs><linearGradient id="r" x1="0" x2="1" y1="0" y2="1"><stop stop-color="#ef2638"/><stop offset="1" stop-color="#850511"/></linearGradient></defs>
+  <rect width="512" height="512" rx="110" fill="#10080b"/>
+  <circle cx="256" cy="256" r="172" fill="url(#r)" stroke="#f3c64e" stroke-width="12"/>
+  <path d="M84 256h344" stroke="#fff" stroke-width="48"/><circle cx="256" cy="256" r="64" fill="#fff" stroke="#10080b" stroke-width="36"/>
+  <path d="M160 115 352 397" stroke="#10080b" stroke-opacity=".32" stroke-width="22"/>
+</svg>

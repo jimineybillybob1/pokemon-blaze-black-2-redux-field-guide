@@ -1,0 +1,23 @@
+{
+  "name": "Pokémon Blaze Black 2 Redux Field Guide",
+  "short_name": "Pokémon Blaze Black 2 Redux",
+  "description": "An offline-friendly field guide for Pokémon Blaze Black 2 Redux.",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#10080b",
+  "theme_color": "#d71920",
+  "icons": [
+    {
+      "src": "assets/art/redux-icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "assets/art/redux-icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "maskable"
+    }
+  ]
+}

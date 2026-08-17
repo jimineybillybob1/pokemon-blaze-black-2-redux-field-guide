@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 140" role="img" aria-labelledby="title">
+  <title id="title">Pokémon Blaze Black 2 Redux Field Guide</title>
+  <defs><linearGradient id="r" x1="0" x2="1"><stop stop-color="#ef2638"/><stop offset="1" stop-color="#9b0715"/></linearGradient></defs>
+  <rect width="560" height="140" rx="26" fill="#10080b" stroke="#d71920" stroke-width="3"/>
+  <circle cx="70" cy="70" r="42" fill="url(#r)"/><path d="M28 70h84" stroke="#f7f2f0" stroke-width="12"/>
+  <circle cx="70" cy="70" r="15" fill="#f7f2f0" stroke="#10080b" stroke-width="8"/>
+  <text x="132" y="53" fill="#f3c64e" font-family="system-ui,sans-serif" font-size="18" font-weight="800" letter-spacing="3">POKÉMON</text>
+  <text x="132" y="86" fill="#fff" font-family="system-ui,sans-serif" font-size="29" font-weight="900">BLAZE BLACK 2 REDUX</text>
+  <text x="134" y="112" fill="#c7afb5" font-family="system-ui,sans-serif" font-size="14" font-weight="700" letter-spacing="4">FIELD GUIDE</text>
+</svg>
